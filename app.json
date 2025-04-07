@@ -1,23 +1,40 @@
 {
-  "id": "e4282f1e-c316-416b-9894-373fcf376501",
-  "name": "ALProject1",
-  "publisher": "Default Publisher",
-  "version": "1.0.0.0",
+  "id": "00000000-0000-0000-0000-000000000004",
+  "name": "Cibes Aesy Customizations",
+  "publisher": "KPMG",
   "brief": "",
   "description": "",
+  "version": "1.0.0.0",
   "privacyStatement": "",
   "EULA": "",
   "help": "",
   "url": "",
-  "logo": "",
-  "dependencies": [],
+  "logo": "KPMG256x240.png",
+  "dependencies": [
+    {
+      "id":  "38df5671-7cfe-4343-bf3f-f5295b50b8d8",
+      "name":  "Extended Time Sheets",
+      "publisher":  "Bluace",
+      "version":  "1.0.0.0"
+    },
+    { 
+      "id": "00000000-0000-0000-0000-000000000001",
+      "name": "Cibes Data Synchronization",
+      "publisher": "KPMG",
+      "version": "1.0.0.0"
+  }
+  ],
   "screenshots": [],
-  "platform": "1.0.0.0",
-  "application": "25.0.0.0",
+  "application": "24.0.0.0",
+  "platform": "24.0.0.0",
   "idRanges": [
     {
-      "from": 50100,
-      "to": 50149
+      "from": 50500,
+      "to": 50599
+    },
+    {
+      "from": 60500,
+      "to": 60599
     }
   ],
   "resourceExposurePolicy": {
@@ -25,8 +42,8 @@
     "allowDownloadingSource": true,
     "includeSourceInSymbolFile": true
   },
-  "runtime": "14.0",
-  "features": [
-    "NoImplicitWith"
-  ]
+  "runtime": "13.0",  
+  "target": "Cloud",
+  "features": ["TranslationFile"],
+  "supportedLocales": [ "en-US", "fi-FI", "es-ES", "es-ES_tradnl", "de-DE", "de-AT", "nb-NO", "fr-FR", "nl-NL" ]
 }
